@@ -51,8 +51,6 @@ function yap (message) {
         if (currentDate < epochTime)
         {
             message.channel.send(phrases[counter] + " your time doesn't end until " + newDate.toLocaleTimeString('en-US'));
-            message.channel.send("current time: " + currentDate.toLocaleTimeString('en-US'))
-            message.channel.send("new time " + newDate.toLocaleTimeString('en-US'))
         }
         counter++;
         if(counter == (phrases.length - 1))
