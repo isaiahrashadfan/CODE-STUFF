@@ -53,7 +53,7 @@ function yap (message) {
             message.channel.send(phrases[counter] + " your time doesn't end until " + newDate.toLocaleTimeString('en-US'));
         }
         counter++;
-        if(counter == (phrases.length - 1))
+        if(counter == (phrases.length))
         {
             counter = 0;
         }
